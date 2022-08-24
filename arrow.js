@@ -51,3 +51,6 @@ const n = calculate(23, 58);
 const s = calculate(2, 55);
 console.log(n);
 console.log(s);
+
+const multi = m => m * m;
+console.log(multi(5));
