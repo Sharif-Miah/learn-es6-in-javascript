@@ -45,3 +45,9 @@ console.log(age);
 
 const [a, b, c] = [45, 39, 27, 84, 36, 94, 4];
 console.log(a, b, c);
+
+const calculate = (num1, num2) => num1 + num2;
+const n = calculate(23, 58);
+const s = calculate(2, 55);
+console.log(n);
+console.log(s);
