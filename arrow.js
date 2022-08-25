@@ -90,4 +90,16 @@ let output = nums.filter(n => n % 2);
 friends = ["Moushumi", "Misha", "Manna", "mimi", "mahiya"];
 
 const m = friends.find(friend => friend.length == 5)
-console.log(m);
+// console.log(m);
+
+
+const product = {
+    name: 'Laptop',
+    model: 'Yoga 3',
+    price: 49000,
+    dusk: '512SSD'
+}
+
+
+const { price } = product;
+console.log(price);
