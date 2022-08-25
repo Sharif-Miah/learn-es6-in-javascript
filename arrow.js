@@ -81,4 +81,13 @@ const [a, b] = [1, 2, 3, 4, 45, 5];
 
 const { x, y, z } = { x: 1, y1: 2, z: 3 };
 
-console.log(x, y, z);
+// console.log(x, y, z);
+
+const nums = [1, 2, 3, 4, 5];
+let output = nums.filter(n => n % 2);
+// console.log(output);
+
+friends = ["Moushumi", "Misha", "Manna", "mimi", "mahiya"];
+
+const m = friends.find(friend => friend.length == 5)
+console.log(m);
