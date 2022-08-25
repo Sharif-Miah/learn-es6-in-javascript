@@ -54,3 +54,8 @@ console.log(s);
 
 const multi = m => m * m;
 console.log(multi(5));
+
+let ages = 23
+let job = 'Javascript developer'
+const stringAdd = `Hello Farhan! Your age is ${ages}. your work is ${work} and you like ${hobby}`
+console.log(stringAdd);
