@@ -79,5 +79,6 @@ const [a, b] = [1, 2, 3, 4, 45, 5];
 // const d = x.filter(e => e % 2 === 0);
 // console.log(d);
 
-
 const { x, y, z } = { x: 1, y1: 2, z: 3 };
+
+console.log(x, y, z);
